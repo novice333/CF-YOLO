@@ -1,4 +1,4 @@
-# SCM-YOLO
+# CF-YOLO
 # YOLOV11s-Enhanced
 
 本项目基于 YOLOV11s 进行改进，旨在提升模型对小目标检测的准确性和效率。  
