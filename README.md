@@ -1,15 +1,15 @@
 # CF-YOLO
 # YOLOV11s-Enhanced
 
-本项目基于 YOLOV11s 进行改进，旨在提升模型对小目标检测的准确性和效率。  
-该仓库将提供模型代码、训练和测试脚本，以及创新点的详细介绍。
+This project builds upon YOLOV11s with enhancements aimed at improving the model's accuracy and efficiency in small object detection.
+The repository will provide model code, training and testing scripts, along with detailed introductions to the innovations.
 
-## 创新点
+Innovations
+SBAM (Split-Block Attention Module): Leverages a self-attention-guided split strategy to integrate global and local contextual information.
 
-- **SBAM (Split-Block Attention Module)**：利用自注意力引导的分块策略，整合全局和局部上下文。
-- **CMFF (Cross-layer Multi-scale Feature Fusion Module)**：在金字塔网络之上引入跨层多尺度特征交互，显著提升了小物体的定位和分类性能。
-- **MBD ( Multi-Branch Downsampling Module)**：采用多分支下采样技术，保留高信息密度的浅层特征。
+CMFF (Cross-layer Multi-scale Feature Fusion Module): Introduces cross-layer multi-scale feature interactions atop the pyramid network, significantly boosting localization and classification performance for small objects.
 
-## 开源声明
+MBD (Multi-Branch Downsampling Module): Employs multi-branch downsampling techniques to preserve high-information-density shallow features.
 
-本项目计划在论文正式被接受后开源，感谢您的关注与支持！
+Open-Source Statement
+This project will be open-sourced after the formal acceptance of the associated paper. Thank you for your attention and support!
