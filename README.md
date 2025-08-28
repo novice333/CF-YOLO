@@ -14,7 +14,8 @@ To train the model:
    python train.py
 Note: Make sure your dataset YAML file correctly specifies the paths to your training, validation, and class information.
 
-🔧 Key Innovations
+🔧 Key Innovations：
+
 ✅ SBAM (Split-Block Attention Module)
 Leverages a self-attention-guided split strategy to effectively integrate global and local contextual information, enhancing feature representation.
 
