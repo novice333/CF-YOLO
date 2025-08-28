@@ -11,7 +11,9 @@ To train the model:
 1. Prepare your dataset and create a corresponding YAML configuration file (e.g., `data/my_dataset.yaml`).
 2. Replace the path in `data/my_VisDrone.yaml` with your own dataset YAML file, or modify the training script to point to your config.
 3. Run the training script:
-   python train.py
+   
+   'python train.py'
+
 Note: Make sure your dataset YAML file correctly specifies the paths to your training, validation, and class information.
 
 🔧 Key Innovations：
