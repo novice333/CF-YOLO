@@ -4,7 +4,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('yolo11s_all4.yaml')
+    model = YOLO('yolo11s_cf.yaml')
     model.train(data=r"data/my_VisDrone.yaml",
                 cache=False,
                 imgsz=640,
