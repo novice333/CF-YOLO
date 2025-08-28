@@ -16,11 +16,11 @@ Note: Make sure your dataset YAML file correctly specifies the paths to your tra
 
 🔧 Key Innovations：
 
-✅ SBAM (Split-Block Attention Module)
+✅ SBAM (Split-Block Attention Module):
 Leverages a self-attention-guided split strategy to effectively integrate global and local contextual information, enhancing feature representation.
 
-✅ CMFF (Cross-layer Multi-scale Feature Fusion Module)
+✅ CMFF (Cross-layer Multi-scale Feature Fusion Module):
 Introduces cross-layer multi-scale feature interactions within the pyramid network, significantly improving localization and classification performance for small objects.
 
-✅ MBD (Multi-Branch Downsampling Module)
+✅ MBD (Multi-Branch Downsampling Module):
 Employs multi-branch downsampling to preserve high-information-density shallow features during spatial reduction, minimizing information loss.
